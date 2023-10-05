@@ -47,19 +47,22 @@ function displayTodo() {
   listBox.innerHTML = htmlCode;
 }
 
-// call the todo and let it equal localstorage.getitem("todo")
-// assign the todoArray equal to JSON.parse(todo)
-// use the todoArray and use the splice method on the ind and pass in 1 as well.
-// set the todo in local storage and use the JSON.stringify(todoArray)
-// call the display todo method
-function deleteTodo(ind) {}
+function deleteTodo(ind) {
+  // call the todo and let it equal localstorage.getitem("todo")
+  // assign the todoArray equal to JSON.parse(todo)
+  // use the todoArray and use the splice method on the ind and pass in 1 as well.
+  // set the todo in local storage and use the JSON.stringify(todoArray)
+  // call the display todo method
+}
 
-// call the todo and let it equal localstorage.getitem("todo")
-// assign the todoArray equal to JSON.parse(todo)
-// assign the text.value to the array and get the index [ind].
-// set the addTaskButton display to none
-// set the saveTaskButton display to block
-function edit(ind) {}
+function edit(ind) {
+  // set the saveInd.value equal to the ind
+  // call the todo and let it equal localstorage.getitem("todo")
+  // assign the todoArray equal to JSON.parse(todo)
+  // assign the text.value to the array and get the index [ind].
+  // set the addTaskButton display to none
+  // set the saveTaskButton display to block
+}
 
 // this is the challenge for this project
 // you'll follow a similar pattern above and do the following different:
