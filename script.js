@@ -64,11 +64,15 @@ function edit(ind) {
   // set the saveTaskButton display to block
 }
 
-// this is the challenge for this project
-// you'll follow a similar pattern above and do the following different:
-// 1. let id be the same as your saveInd.value
-// 2. switch the add and save displays to block and none respectively.
-// 3. set text value to empty
-// 4. and use the localstorage method setItem, pass in todo and stringify the array.
-// 5. display todo method called.
-saveTaskButton.addEventListener("click", () => {});
+saveTaskButton.addEventListener("click", () => {
+  // this is the challenge for this project
+  // in this part you will need to add the following:
+  // 1. call the todo and let it equal localstorage.getitem("todo")
+  // 2. assign the todoArray equal to JSON.parse(todo)
+  // then finish out the rest of the following instructions:
+  // 1. let id be the same as your saveInd.value
+  // 2. switch the add and save displays to block and none respectively.
+  // 3. set text value to empty
+  // 4. and use the localstorage method setItem, pass in todo and stringify the array.
+  // 5. display todo method called.
+});
